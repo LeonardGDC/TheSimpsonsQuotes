@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(13, 138, 9);
+    color: rgb(255, 236, 21);
+    text-shadow: 1px 1px 5px black, -1px -1px 5px black ;
+    text-align:center;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5em;
+}
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, .button {
+    margin-bottom: 5vh;
+}
+.button {
+    background-color: rgb(255, 236, 21);
+    padding:2vh;
+    color: rgb(13, 138, 9);
+    font-family: "Caveat", cursive;
+    font-size: 2em;
+}
+.quote-wrapper {
+    margin:0 auto;
+    width: 60vh;
+    height: 60vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position:relative;
+}
+.text-wrapper {
+    width:100%;
+    position: absolute;
+    bottom:0;
+}
+p {
+    width:100%;
+    
+}
+.quote {
+    text-align: left;
+    
+}
+.character{
+    text-align: right;
+    
+}
