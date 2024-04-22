@@ -1,52 +1,77 @@
 body {
     background-color: rgb(13, 138, 9);
     color: rgb(255, 236, 21);
-    text-shadow: 1px 1px 5px black, -1px -1px 5px black ;
-    text-align:center;
+    text-shadow: 1px 1px 5px black, -1px -1px 5px black;
+    text-align: center;
     font-family: "Caveat", cursive;
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
     font-size: 1.5em;
 }
+
 * {
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-h1, .button {
-    margin-bottom: 5vh;
+
+h1,
+.button {
+    margin: 2.5vh 0;
 }
+
+button {
+    /* border: 0; */
+    border-radius: 50%;
+}
+
 .button {
     background-color: rgb(255, 236, 21);
-    padding:2vh;
+    padding: 2vh;
     color: rgb(13, 138, 9);
     font-family: "Caveat", cursive;
     font-size: 2em;
 }
+
 .quote-wrapper {
-    margin:0 auto;
+    margin: 0 auto;
     width: 50vh;
     height: 60vh;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    position:relative;
+    position: relative;
 }
+
 .text-wrapper {
-    width:100%;
+    width: 100%;
     position: absolute;
-    bottom:0;
+    bottom: 0;
+    padding: 0 1vh;
 }
+
 p {
-    width:100%;
-    
+    width: 100%;
 }
+
 .quote {
     text-align: left;
-    
 }
-.character{
+
+.character {
     text-align: right;
-    
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+    .quote-wrapper {
+        margin: 0 auto;
+        width: 40vh;
+        height: 50vh;
+        font-size: 1.5em;
+    }
 }
